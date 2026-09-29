@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>智滙保險經紀人 - 張茗程 業務經理</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            background-color: #f3f4f6;
+        }
+    </style>
+</head>
+<body class="min-h-screen flex items-center justify-center p-4">
+
+    <!-- Card Container -->
+    <div class="max-w-md w-full bg-white rounded-2xl shadow-xl overflow-hidden border border-gray-100">
+        
+        <!-- Header / Logo Banner -->
+        <div class="bg-gradient-to-r from-blue-900 via-indigo-900 to-slate-900 p-6 text-white text-center relative">
+            <div class="flex items-center justify-center space-x-3 mb-2">
+                <!-- Logo Icon Representation -->
+                <div class="w-10 h-10 bg-yellow-400 rounded-lg flex items-center justify-center font-bold text-blue-900 text-xl shadow">
+                    U
+                </div>
+                <div class="text-left">
+                    <h1 class="text-xl font-bold tracking-wide leading-tight">智滙保險經紀人</h1>
+                    <p class="text-xs text-gray-300">Uniwill Insurance Broker Co., Ltd.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Main Content -->
+        <div class="p-6 text-center">
+            
+            <!-- Name & Title -->
+            <div class="mb-6">
+                <h2 class="text-3xl font-extrabold text-gray-800 tracking-wider mb-1">張 茗 程</h2>
+                <p class="text-blue-600 font-semibold text-lg">業務經理</p>
+                <span class="inline-block mt-2 px-3 py-1 bg-blue-50 text-blue-700 text-xs font-medium rounded-full border border-blue-200">
+                    人身保險業務員資格測驗合格
+                </span>
+            </div>
+
+            <!-- Action Buttons Grid -->
+            <div class="grid grid-cols-2 gap-3 mb-6">
+                <a href="tel:0909399322" class="flex items-center justify-center space-x-2 py-3 px-4 bg-blue-600 hover:bg-blue-700 text-white font-medium rounded-xl transition shadow">
+                    <i class="fas fa-mobile-alt"></i>
+                    <span>撥打手機</span>
+                </a>
+                <a href="tel:0422596880" class="flex items-center justify-center space-x-2 py-3 px-4 bg-slate-700 hover:bg-slate-800 text-white font-medium rounded-xl transition shadow">
+                    <i class="fas fa-phone"></i>
+                    <span>公司電話</span>
+                </a>
+            </div>
+
+            <!-- Contact Information List -->
+            <div class="space-y-4 text-left text-sm text-gray-600 bg-gray-50 p-4 rounded-xl mb-6">
+                <!-- Phone -->
+                <a href="tel:0909399322" class="flex items-center space-x-3 hover:text-blue-600 transition">
+                    <div class="w-8 h-8 rounded-full bg-blue-100 flex items-center justify-center text-blue-600 shrink-0">
+                        <i class="fas fa-phone-alt text-xs"></i>
+                    </div>
+                    <div>
+                        <p class="text-xs text-gray-400">行動電話</p>
+                        <p class="font-medium text-gray-800">0909-399322</p>
+                    </div>
+                </a>
+
+                <!-- Tel -->
+                <a href="tel:0422596880" class="flex items-center space-x-3 hover:text-blue-600 transition">
+                    <div class="w-8 h-8 rounded-full bg-blue-100 flex items-center justify-center text-blue-600 shrink-0">
+                        <i class="fas fa-building text-xs"></i>
+                    </div>
+                    <div>
+                        <p class="text-xs text-gray-400">市話電話</p>
+                        <p class="font-medium text-gray-800">(04)2259-6880</p>
+                    </div>
+                </a>
+
+                <!-- Email -->
+                <a href="mailto:z0909399322@gmail.com" class="flex items-center space-x-3 hover:text-blue-600 transition">
+                    <div class="w-8 h-8 rounded-full bg-blue-100 flex items-center justify-center text-blue-600 shrink-0">
+                        <i class="fas fa-envelope text-xs"></i>
+                    </div>
+                    <div class="overflow-hidden">
+                        <p class="text-xs text-gray-400">電子郵件</p>
+                        <p class="font-medium text-gray-800 truncate">z0909399322@gmail.com</p>
+                    </div>
+                </a>
+
+                <!-- Address -->
+                <a href="https://maps.google.com/?q=台中市西屯區市政路386號38樓" target="_blank" class="flex items-center space-x-3 hover:text-blue-600 transition">
+                    <div class="w-8 h-8 rounded-full bg-blue-100 flex items-center justify-center text-blue-600 shrink-0">
+                        <i class="fas fa-map-marker-alt text-xs"></i>
+                    </div>
+                    <div>
+                        <p class="text-xs text-gray-400">公司地址</p>
+                        <p class="font-medium text-gray-800 leading-snug">407 台中市西屯區市政路386號38樓</p>
+                    </div>
+                </a>
+            </div>
+
+            <!-- Save Contact Button -->
+            <button onclick="downloadVCard()" class="w-full py-3 px-4 bg-emerald-600 hover:bg-emerald-700 text-white font-semibold rounded-xl transition shadow flex items-center justify-center space-x-2">
+                <i class="fas fa-address-card"></i>
+                <span>儲存名片至手機通訊錄</span>
+            </button>
+
+        </div>
+
+        <!-- Footer -->
+        <div class="bg-gray-100 p-4 text-center text-xs text-gray-400 border-t border-gray-200">
+            © 智滙保險經紀人 - 張茗程 電子名片
+        </div>
+    </div>
+
+    <!-- Script to Generate & Download vCard -->
+    <script>
+        function downloadVCard() {
+            const vCardData = `BEGIN:VCARD
+VERSION:3.0
+FN:張茗程
+N:張;茗程;;;
+ORG:智滙保險經紀人
+TITLE:業務經理
+TEL;TYPE=CELL:0909399322
+TEL;TYPE=WORK:0422596880
+EMAIL;TYPE=WORK:z0909399322@gmail.com
+ADR;TYPE=WORK:;;市政路386號38樓;台中市;西屯區;407;台灣
+NOTE:人身保險業務員資格測驗合格
+END:VCARD`;
+
+            const blob = new Blob([vCardData], { type: 'text/vcard;charset=utf-8;' });
+            const link = document.createElement('a');
+            link.href = URL.createObjectURL(blob);
+            link.setAttribute('download', '張茗程_業務經理.vcf');
+            document.body.appendChild(link);
+            link.click();
+            document.body.removeChild(link);
+        }
+    </script>
+</body>
+</html>
